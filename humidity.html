@@ -24,31 +24,51 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDarkDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="/index.html">Home</a>
+                        <a class="nav-link" href="/index">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle active" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-current="page" aria-expanded="false">
                         Plots
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark" role="menu" aria-labelledby="navbarDarkDropdownMenuLink">
-                            <li><a class="dropdown-item" href="/max_temp.html">Max Temperature</a></li>
-                            <li><a class="dropdown-item active" aria-current="page" href="/humidity.html">Humidity</a></li>
-                            <li><a class="dropdown-item" href="/cloudiness.html">Cloudiness</a></li>
-                            <li><a class="dropdown-item" href="/wind_speed.html">Wind Speed</a></li>
+                            <li><a class="dropdown-item" href="/max_temp">Max Temperature</a></li>
+                            <li><a class="dropdown-item active" aria-current="page" href="/humidity">Humidity</a></li>
+                            <li><a class="dropdown-item" href="/cloudiness">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="/wind_speed">Wind Speed</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/data.html">Data</a>
+                        <a class="nav-link" href="/data">Data</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/comparisons.html">Comparisons</a>
+                        <a class="nav-link" href="/comparisons">Comparisons</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
+     <!-- Visualization: Humidity -->
+     <div class="container">
+        <div class="row">
+            <div class="col-md">
+                <br><br>
+                <h1>Humidity</h1>
+                <hr>
+                <div class="float-md-start p-3">
+                    <img src="Resources/assets/images/Fig2.png" class="img-fluid" alt="Latitude v. Humidity">
+                </div>
+                <div class="single-post-content-wrapper p-3">
+                    <p>
+                        <br><br>
+                        Humidity does not show a strong correlation to latitude.  Interestingly, there appears to be a certain degree of randomness when considering humidity percentages at different latitudes, but nothing that points to a conclusive pattern.
+                    </p>
+                </div>
+            </div>
 
+        </div>
+
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
